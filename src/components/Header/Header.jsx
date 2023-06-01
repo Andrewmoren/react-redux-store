@@ -30,6 +30,9 @@ const Header = () => {
               <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#search`} />
             </svg>
           </div>
+          <div className={styles.input}>
+            <input type="search" />
+          </div>
         </form>
       </div>
     </div>
