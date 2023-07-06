@@ -8,6 +8,6 @@ export const store = configureStore({
     products: productsSlice,
     [apiSlice.reducerPath]: apiSlice,
   },
-  middleware: (getMiddleWare) => getMiddleWare().concat(apiSlice.middleware),
-  devTools: true,
+  // middleware: (getMiddleWare) => getMiddleWare().concat(apiSlice.middleware),
+  // devTools: true,
 });
